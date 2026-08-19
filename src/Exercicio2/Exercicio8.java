@@ -1,0 +1,15 @@
+package Exercicio2;
+
+public class Exercicio8 {
+    public static void main(String[] args) {
+
+        double temperatura = 26.78;
+
+        int temperaturaInteira = (int) temperatura;
+        double temperaturaDouble = (double) temperaturaInteira;
+
+        System.out.println("Temperatura original: " + temperatura);
+        System.out.println("Temperatura em int: " + temperaturaInteira);
+        System.out.println("Temperatura em double: " + temperaturaDouble);
+    }
+}
